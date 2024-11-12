@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <style>
+        /* Optional: Enable smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with id for smooth scrolling -->
+    <header id="home">
+        <div class="logo">
+            <img src="img/logo.png"alt="">
+        </div>
+        <ul>
+            <li><a href="#home"alt=""><b>Home</b></a></li>
+            <li><a href="Login/Login.html"><b>Login</b></a></li>
+            <li><a href="Sign_up/signup.html"><b>Sign up</b></a></li>
+            <li><a href="#about-zomato"><b>About</b></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section>
+            <!-- Use img/bg.png as background -->
+            <img src="bg.png" alt="">
+            <img src="img/logo.png" alt="">
+            <h3><strong><b>Aaksh Jha</b></strong></h3>
+            <p>Discover the best food & drinks in India</p>
+            <input placeholder="Search for restaurant, cuisine or a dish">
+        </section>
+        
+        <!-- Content section -->
+        <section>
+            <h2>Why Choose Zomato for Your Food Delivery?</h2>
+            <p>Enjoy a wide variety of delicious food options delivered straight to your door with ease, convenience, and speed.</p>
+            <div class="features">
+                <div class="feature">
+                    <img src="img/fast-delivery.png" alt="Fast Delivery">
+                    <h3>Fast Delivery</h3>
+                    <p>Get your food delivered in no time with our optimized delivery service.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/fresh-food.png" alt="Fresh Food">
+                    <h3>Fresh Food</h3>
+                    <p>Only the freshest ingredients, carefully handled and prepared, for the best taste.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/best-prices.png" alt="Best Prices">
+                    <h3>Best Prices</h3>
+                    <p>Enjoy delicious food at competitive prices with exclusive discounts and deals.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with id for "About Zomato" target -->
+    <footer id="about-zomato">
+        <div>Copyright &copy; | Aakash Jha All rights reserved of Zomato</div>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>ABOUT ZOMATO</h4>
+                <a href="#">Who We Are</a>
+                <a href="#">Blog</a>
+                <a href="#">Work With Us</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Report Fraud</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-links">
+                <h4>ZOMAVERSE</h4>
+                <a href="#">Zomato</a>
+                <a href="#">Blinkit</a>
+                <a href="#">Feeding India</a>
+                <a href="#">Hyperpure</a>
+                <a href="#">Zomaland</a>
+            </div>
+            <div class="footer-links">
+                <h4>FOR RESTAURANTS</h4>
+                <a href="#">Partner With Us</a>
+                <a href="#">Apps For You</a>
+            </div>
+            <div class="footer-links">
+                <h4>LEARN MORE</h4>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a href="#">Terms</a>
+            </div>
+            <div class="footer-social">
+                <select>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                </select>
+                <select>
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+                <div class="social-icons">
+                    <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Js/script.js"></script>
+
+    <script>
+        // Ensure smooth scrolling for "Home" link
+        document.querySelector('a[href="#Aakash-Jha"]').addEventListener("click", function(e) {
+            e.preventDefault();
+            document.querySelector("#Aakash Jha").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+    </script>
+</body>
+</html>
